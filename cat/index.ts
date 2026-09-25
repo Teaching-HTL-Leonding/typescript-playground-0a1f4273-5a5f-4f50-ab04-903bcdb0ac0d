@@ -2,11 +2,11 @@ function setup() {
     createCanvas(500, 500);
     background("deepskyblue");
 
-    // grey head
+    //grey head
     fill("grey");
     circle(250, 250, 300);
 
-    // left ear
+    //left ear
     fill("white");
     triangle(190, 90, 130, 15, 90, 160);
 
@@ -26,7 +26,7 @@ function setup() {
     fill("pink")
     triangle(225, 250, 275, 250, 250, 280);
 
-    // mouth
+    //mouth
     strokeWeight(2);
     stroke("black");
     line(250, 280, 250, 310);
@@ -43,10 +43,15 @@ function setup() {
     line(200, 310, 220, 320);
     line(280, 320, 300, 310);
 
-    // sun in the corner
+    //sun in the corner
     fill("yellow");
     circle(480, 15, 100);
 
+   //grass
+   fill("green");
+   rect(0, 450, 500, 450,)
+   
+   
     //body of the cat
     fill("grey");
     circle(250, 500, 200);
