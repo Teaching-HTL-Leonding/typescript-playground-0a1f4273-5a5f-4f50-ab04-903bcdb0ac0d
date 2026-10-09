@@ -5,7 +5,7 @@ function setup() {
 
   // Canvas
   noFill();
-  createCanvas(500, 500);
+  createCanvas(1000, 1000);
 
   // Stängel
   angleMode(DEGREES);
@@ -26,4 +26,31 @@ function setup() {
   // Gelbe Blüte
   fill("yellow");
   circle(200, 200, 65);
+
+
+
+  // Blume 2
+  // Stängel
+  angleMode(DEGREES);
+  stroke("green");
+  strokeWeight(20);
+  noFill();
+  arc(600, 300, 110, 200, 270, 75);
+  
+  // Grüne Blüten
+  stroke("green");
+  strokeWeight(3);
+  fill("lightgreen");
+  circle(650, 200, 80);
+  circle(600, 250, 80);
+  circle(550, 200, 80);
+  circle(600, 150, 80);
+
+  // Gelbe Blüte
+  noStroke();
+  fill("yellow");
+  circle(600, 200, 65);
+
+
+
 }
