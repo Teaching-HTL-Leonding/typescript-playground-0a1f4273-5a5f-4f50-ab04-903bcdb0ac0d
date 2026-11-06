@@ -1,5 +1,8 @@
 function setup() {
   createCanvas(600, 400);
+}
+
+function mouseMoved() {
   background("white");
 
   stroke("black");
@@ -17,8 +20,16 @@ function setup() {
   rect(180, 120, 240, 160);
 
   //Weißer Kreis
+  fill("white")
   circle(300, 200, 160);
-}
 
-function mouseMoved() {
+  //Rote Kreise
+  fill("tomato");
+  circle(120, 200, 80);
+  circle(300, 80, 80);
+  circle(300, 320, 80);
+  circle(480, 200, 80);
+
+  //Roter Kreis der, der Maus hinterherbewegt
+  circle(mouseX, mouseY, 40);
 }
