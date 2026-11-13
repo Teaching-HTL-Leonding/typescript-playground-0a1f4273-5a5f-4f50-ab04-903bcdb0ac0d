@@ -10,7 +10,7 @@ function setup() {
   text(clickPositions, 5, 5, width - 10, height - 10);
 }
 
-let clickPositions: string = '0/0'
+let clickPositions: string = '0/0';
 
 function mouseClicked() {
   background("lightblue");
