@@ -3,20 +3,19 @@ function setup() {
     background("black");
     noStroke();
 
-    //1/3 orange
+    //1/3 ORANGE
     fill("orange");
     rect(0, 0, width/3, height);
-    //2/3 grün
+    //2/3 GRÜN
     fill("green");
     rect(width/3, 0, width/3, height);
-    //3/3 Rot
+    //3/3 ROT
     fill("red");
     rect((width*2)/3, 0, width/3, height);
-    //schwarze balken
+    //SCHWARZE BALKEN
     fill("black");
     rect(0, height*0.7, width, height*0.3);
 }
-
 let message: string;
 
 function mouseClicked() {
@@ -28,7 +27,7 @@ function mouseClicked() {
     textSize(20);
     textAlign(CENTER);
     
-    
+    //WENN AUF FARBE GEDRÜCKT WIRD
     if(mouseX<=width/3){
         message="Orange";
         text(message, width/2, height*0.87);
